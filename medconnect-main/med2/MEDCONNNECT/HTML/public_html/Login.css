@@ -1,0 +1,136 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 de nov. de 2023, 10:05:23
+    Author     : rcosta
+*/
+.quadrado-vermelho {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100vh;
+    background-color: #BEE1E7;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.img {
+    position: absolute;
+}
+
+.formulario {
+    margin: 0% auto;
+    width: 50%;
+    max-width: 400px;
+    position: absolute;
+    left: 55%;
+    text-align: center;
+    align-items: center;
+}
+
+.formulario h1 {
+    color: #05568b;
+    font-size: 40px;
+    font-weight: 600; /* Ajustado para 600 (anteriormente 1500) */
+}
+
+.formulario h2 {
+    color: #333;
+    font-size: 25px;
+}
+
+.formulario p {
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.formulario .input-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.formulario .input-container label {
+    display: block;
+    color: #000000;
+    font-weight: 600;
+    text-align: left;
+}
+
+.formulario .input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    text-align: left;
+}
+
+.formulario .forgot-password, .formulario a {
+    color: #03427c;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    font-size: 14px;
+}
+
+.checkbox label {
+    display: flex; /* Para alinhar o checkbox e o texto na horizontal */
+    align-items: center; /* Para centralizar verticalmente */
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 10px; /* Adicione espaço entre o checkbox e o texto */
+}
+
+.formulario .separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.formulario .separator hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+.formulario .separator span {
+    color: #333;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.formulario .entrar {
+    background-color: #BEE1E7;
+    color: #000000;
+    border: none;
+    padding: 11.5px 140px; /* Ajustado o tamanho do padding */
+    border-radius: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.formulario .criar-conta {
+    background-color: #BEE1E7;
+    color: #000000;
+    border: none;
+    padding: 14px 120px; /* Ajustado o tamanho do padding */
+    border-radius: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.formulario .CONECTADO{
+    text-align: left;
+    color: #0761b6;
+}
+
+

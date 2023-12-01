@@ -1,0 +1,81 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 de nov. de 2023, 10:04:05
+    Author     : rcosta
+*/
+.quadrado-vermelho {
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100vh;
+    background-color: #BEE1E7;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.img {
+    position: absolute;
+}
+
+.formulario {
+    top: 20%;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 400px;
+    position: absolute;
+    left: 55%;
+    text-align: center;
+    align-items: center;
+}
+
+.formulario h2 {
+    color: #333;
+    font-size: 25px;
+}
+
+.formulario p {
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.formulario .input-container label {
+    display: block;
+    color: #000000;
+    font-weight: 600;
+    text-align: left;
+}
+
+.formulario .input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    text-align: left;
+}
+
+.formulario .recuperar-senha {
+    background-color: #BEE1E7;
+    color: #000000;
+    border: none;
+    padding: 11.5px 140px;
+    border-radius: 13px;
+    font-weight: 800;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.formulario a {
+    color: #03427c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.formulario a:hover {
+    text-decoration: underline;
+}
+

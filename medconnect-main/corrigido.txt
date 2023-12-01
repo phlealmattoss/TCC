@@ -1,0 +1,26 @@
+private void cadastrarPaciente() {
+    PacienteModel pacienteModel = new PacienteModel();
+
+    pacienteModel.setAlgoMais(txtAlgoMais.getText());
+    pacienteModel.setNome(txtNome.getText());
+    pacienteModel.setGenero(txtGenero.getText());
+    pacienteModel.setEndereco(txtEndereco.getText());
+    pacienteModel.setEstado(txtEstado.getText());
+    pacienteModel.setTelefone(txtTelefone.getText());
+    pacienteModel.setEmail(txtEmail.getText());
+    pacienteModel.setComplemento(txtComplemento.getText());
+    pacienteModel.setCidade(txtCidade.getText());
+
+    // Substitua "seuDateChooser" pelo nome real do seu componente de seleção de data
+    Date dataNascimento = seuDateChooser.getDate();
+    pacienteModel.setDataNascimento(dataNascimento);
+
+    pacienteModel.setIdade(Integer.parseInt(txtIdade.getText()));
+    pacienteModel.setQueixa(txtQueixa.getText());
+    pacienteModel.setAlergias(txtAlergias.getText());
+    pacienteModel.setMedicamentosUso(txtMedicamentosUso.getText());
+    pacienteModel.setSintomasFebre(txtSintomasFebre.getText());
+    pacienteModel.setDoresCorpo(txtDoresCorpo.getText());
+
+    PacienteDAO pd = new PacienteDAO();
+    pd.cadastrarPaciente(pacienteModel);

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cadastro.css">
+    <title>CADASTRO/MEDCONNECT</title>
+</head>
+<body>
+    <div class="quadrado-vermelho"></div>
+       
+    
+    <div class="formulario">
+        <h2>MEDCONNECT</h2>
+        <h3>FAÇA SEU CADASTRO</h3>
+        <p>Informe seus dados para continuar</p>
+        <form>
+            <div class="input-container-group">
+                <div class="input-container">
+                    <label for="name">NOME:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-container">
+                    <label for="surname">SOBRENOME:</label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>
+            </div>
+            <!-- Repita o padrão para outros campos -->
+            <div class="input-container-group">
+                <div class="input-container">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">CELULAR/TELEFONE:</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+            </div>
+            <div class="input-container-group">
+                <div class="input-container">
+                    <label for="birthdate">NASCIMENTO:</label>
+                    <input type="text" id="birthdate" name="birthdate" required>
+                </div>
+                <div class="input-container">
+                    <label for="gender">SEXO:</label>
+                    <input type="text" id="gender" name="gender" required>
+                </div>
+            </div>
+            <div class="input-containe">
+                <label for="email">E-MAIL:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+
+            <div class="input-container-group">
+            <div class="input-container">
+                <label for="password">SENHA:</label>
+                <input type="text" id="password" name="password" required>
+            </div>
+            <div class="input-container">
+                <label for="confirmPassword">CONFIRMAR SENHA:</label>
+                <input type="text" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            </div>
+           
+            <button type="submit" class="entrar">ENTRAR</button>
+        </form>
+        <p>Já possui Cadastro? <a href="#">Entre aqui</a></p>
+    </div>
+</body>
+</html>
